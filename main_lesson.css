@@ -1,0 +1,246 @@
+
+.main-container {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+.menu {
+    text-align: center;
+    margin-top: 54px;
+}
+.menu-link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #131313;
+    margin: 0 60px;
+}
+.menu-active {
+    color: #2785F7;
+}
+.main-content {
+    width: 1404px;
+    height: 726px;
+    background: #EAEBED;
+    border-radius: 30px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.project-title {
+    font-family: 'Open Sans';    
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+}
+.title-margin {
+    margin-top: 32px;
+    margin-left: 42px;
+}
+.descr-margin {
+    padding-top: 34px;
+}
+.descr-text {
+    margin-left: 42px;
+    width: 624px;
+}
+.project-name {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 42px;
+}
+
+.top-name {
+    width: 592px;
+    height: 130px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+.logos {
+    margin-left: 37px;
+    width: 583px;
+}
+.top-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;    
+    margin-bottom: 34px;
+}
+.descr {
+    width: 732px;
+    height: 194px;
+    margin-bottom: 22px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+.data-portability {
+    width: 447px;
+    height: 410px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin-left: 33px;
+}
+.team {
+    float: left;
+    margin-left: 42px;
+    margin-top:28px ;
+    margin-right: 49px;
+}
+.data {
+    margin: 28px 49px 25px 42px;
+}
+.data-text {
+    margin-left: 42px;
+    width: 366px;
+}
+.descr-team-data {
+   display: flex;
+}
+.main-icons {
+    width: 105px;
+    height: 420px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin-top: 171px;
+    margin-left: 23px;
+    margin-right: 30px;
+}
+.icons-item {
+    width: 50px;
+    height: 50px;
+    margin-top: 27px;
+    margin-left: 27px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    transition-duration: 0.7s;
+    transition-property: background-color;
+    display: flex;
+    justify-content: space-around;  
+}
+.icons-item:hover {
+    background: #2785F7;
+    color: white;
+}
+.fa-folder {
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+}
+.hero-item {
+    width: 300px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    margin-left: 19px;
+    margin-right: 19px;
+    /* transition-duration: 0.7s;
+    transition-property: background-color; */
+    color: white;
+}
+.hero-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #C5C5C5;
+    margin-bottom: 27px;
+}
+.hero-text:hover {
+    color: #FFFFFF;
+}
+.hero-item:hover {
+    background-color: #2785F7;
+    color: white;
+}
+.hero-item:hover .hero-text,
+.hero-item:hover .hero-name {
+    background-color: #2785F7;
+    color: white;
+}
+
+.team-content {
+    width: 1366px;
+    height: 742px;
+    background: #EAEBED;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero-name {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+.hero-name:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 51px;
+    margin-left: 98px;
+}
+.lessons-content {
+    width: 1280px;
+    height: 680px;
+    background: #EAEBED;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 115px 85px;
+
+}
+table {
+    width: 1194px;
+    height: 64px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #323232;
+}
+ th, td {
+    padding: 35px 10px;
+}
+tbody tr:hover {
+    background: #FFFFFF;
+    border-radius: 21px;
+}
+
+.icon-hover:hover {
+    background-color: #2684F7;
+    width: 35px;
+    height: 33px;
+    margin: 0 auto;
+    border-radius: 11px;
+    color: white;
+}
+
+
+.input.is_chek{
+    width: 35px;
+    height: 33px;
+}
+.checkbox{ 
+    width: 40px;
+    height: 40px;
+}
+
+.roz{
+    width: 40px;
+    height: 40px;
+}

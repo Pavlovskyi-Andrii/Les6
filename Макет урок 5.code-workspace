@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/ДЕН урок 5"
+		},
+		{
+			"path": "../../../../Downloads/Подруга дз 5"
+		},
+		{
+			"path": "../../../../Downloads/Подруга дз 5 2"
+		}
+	],
+	"settings": {
+		"editor.linkedEditing": true,
+		"liveServer.settings.multiRootWorkspaceName": "Макет урок 5"
+	}
+}
