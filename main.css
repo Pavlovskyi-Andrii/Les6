@@ -267,10 +267,11 @@
 
 
 .content_grup1_foto1::after{
-    content:"after";
+    
     color:#2684F7;
     height: 60px;
     width: 0px;
+    
     background-color: #ffffff;
     border-radius: 20px;
     top:-20px;
@@ -280,12 +281,14 @@
   
 }
 .content_grup1_foto1:hover::after {
-    height: 70px;
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
     width: 70px;
-    background: #f8f8f8;
-    
-   
-   
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
 }
 
 
@@ -310,6 +313,54 @@
 }
 
 
+.content_grup1_foto2::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup1_foto2:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .content_grup1_foto3 {
@@ -330,6 +381,53 @@
     position: absolute;
 
 }
+
+.content_grup1_foto3::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup1_foto3:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -352,6 +450,31 @@
     margin: 163px 72px 412px 1076px;
     position: absolute;
 
+}
+
+.content_grup1_foto4::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup1_foto4:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
 }
 
 
@@ -380,6 +503,32 @@
     margin: 511px 1077px 111px 71px;
 }
 
+.content_grup2_foto1::after{
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+   
+  
+}
+.content_grup2_foto1:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+
+
+
 
 
 
@@ -401,6 +550,39 @@
     position: absolute;
     margin: 511px 742px 111px 406px;
 }
+
+.content_grup2_foto2::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup2_foto2:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -426,6 +608,34 @@
     margin: 511px 407px 111px 741px;
 }
 
+.content_grup2_foto3::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup2_foto3:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+
+
+
+
 
 
 
@@ -447,6 +657,31 @@
     border-radius: 41px;
     position: absolute;
     margin: 511px 72px 111px 1076px;
+}
+
+.content_grup2_foto4::after{
+    
+    color:#2684F7;
+    height: 60px;
+    width: 0px;
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    top:-20px;
+    left: 250px;
+    position: absolute;
+    /* transition-duration: 0.7s; */
+  
+}
+.content_grup2_foto4:hover::after {
+    content: url('https://api.iconify.design/uil/trash-alt.svg?color=%232785f7&width=30&height=30');
+    width: 70px;
+    height: 70px;
+    padding: 19px;
+    background-color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-sizing:border-box;
 }
 
 
