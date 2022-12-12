@@ -1152,9 +1152,19 @@
 .image_r1_2:hover {
    
     Background-Color: #2785F7;
-    color: #c47878;
     
 }
+
+.image_r1_2::after {
+    content: "geee";
+    
+    
+}
+
+
+
+
+
 
 .image_r1_3 {
     position: absolute;
