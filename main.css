@@ -59,7 +59,7 @@
 
 
 .menu-link {
-    text-decoration: none;
+    /* text-decoration: none; */
     font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
@@ -1032,19 +1032,18 @@
     content:"";
     font-size: 20px;
     font-weight: 700;
-    display: block;
-    /* color:white; */
     width: 0px;
     height: 38.01px;
-    position: absolute;
     border-radius: 3px;
-  
+    display: block;
+    
 }
 
 .hover_image1:hover::before{
     width: 100%;
     color:white;
     cursor: pointer;
+    
 }
 
 
@@ -1144,22 +1143,45 @@
     border-radius: 4px;
     transition-duration: 0.7s;
     transition-property: background-color;
-    display: flex;
-    justify-content: space-around;  
-    color:  #ca4242;
 }
+
+
 
 .image_r1_2:hover {
-   
     Background-Color: #2785F7;
+   
+}
+.image_r1_2::after {
+    content:"TEXT";
+    color: green;
+    display: block;
+    width: 35px;
+    height:35px;
+    background-color:lightblue;
+    position: absolute;
+    top: 33;
+    right: 33;
     
+}
+.image_r1_2:hover::after{
+    right: -50px;
 }
 
-.image_r1_2::after {
-    content: "geee";
-    
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1174,23 +1196,49 @@
     border-radius: 4px;
     transition-duration: 0.7s;
     transition-property: background-color;
-    display: flex;
-    justify-content: space-around;  
+    /* display: flex; */
+    /* justify-content: space-around;   */
 }
-.image_r1_3::before {
-    content:"";   
-    width: 0;
+.image_r1_3:hover {
+    content:"fff";   
+    width: 150px;
     height: 38.01px;
     Background-Color: #2785F7;
-    color: #ffffff;
+    position: absolute;
     top:0;
     left:0;
-    transition-property: whith;
-    transition-duration: whith;    
+    
+  
 }
-.image_r1_3:hover::before {
-    width: 100%;
+
+.img{
+    position: left
+     ;
+}
+.image_r1_3::after {
+    width: 0px;
+    height: 30px; 
+    Background-Color: #2785F7;
+    top:0;
+    left:0;
+    position: absolute;
+    transition-duration: 0.7s;
 }    
+
+.image_r1_3:hover::after {
+    content: "TEXT";
+    width: 131px;
+    height: 30px; 
+    color: #C5C5C5;
+    Background-Color: #2785F7;
+    top:0;
+    left:0;
+    position: absolute;
+    transition-duration: 0.7s;
+} 
+
+
+
 
 
 /* .image_r1_3:hover {
@@ -1930,6 +1978,7 @@
     border-radius: 32px;
     background-color: #F24F5E;
     position: absolute; 
+
 }
 
 
@@ -2230,7 +2279,10 @@
 }
 
 .krug-pass{
-    height: 65px;
+    /* content: "images/padlock.svg"; */
+    background-image: url("https://cdn-icons-png.flaticon.com/512/483/483408.png");
+    /* background-size: 30px; */
+    height:65px;
     width: 65px;
     margin-left: 48px;
     margin-top: 40px;
@@ -2400,7 +2452,61 @@
     transition: 0.5s;
     margin: 42px 34px 339px 36px ;
     position: absolute;
-    text-align: right;
+    text-decoration: none;
+}
+.image__folder2 {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 35px;
+    transition: 0.5s;
+    margin: 116px 34px 339px 36px ;
+    position: absolute;
+    text-align: center;
+}
+
+.image__folder3 {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 35px;
+    transition: 0.5s;
+    margin: 196px 34px 339px 36px ;
+    position: absolute;
+    text-align: center;
+}
+
+.image__folder4 {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 35px;
+    transition: 0.5s;
+    margin: 266px 34px 339px 36px ;
+    position: absolute;
+    text-align: center;
+}
+.image__folder5 {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 35px;
+    transition: 0.5s;
+    margin: 330px 34px 339px 36px ;
+    position: absolute;
+    text-align: center;
 }
 
 .buttons {
@@ -2417,21 +2523,65 @@
     Height: 43px;
     background: #2785F7;
     z-index: 5;
-    position: absolute;
-    
-    
+    position: absolute; 
+}
+.image__folder2:hover  {
+    transition-timing-function: ease-out;
+    border-radius: 15px;
+    Width: 151px;
+    Height: 43px;
+    background: #2785F7;
+    z-index: 5;
+    position: absolute; 
+}
+.image__folder3:hover  {
+    transition-timing-function: ease-out;
+    border-radius: 15px;
+    Width: 151px;
+    Height: 43px;
+    background: #2785F7;
+    z-index: 5;
+    position: absolute; 
+}
+.image__folder4:hover  {
+    transition-timing-function: ease-out;
+    border-radius: 15px;
+    Width: 151px;
+    Height: 43px;
+    background: #2785F7;
+    z-index: 5;
+    position: absolute; 
+}
+.image__folder5:hover  {
+    transition-timing-function: ease-out;
+    border-radius: 15px;
+    Width: 151px;
+    Height: 43px;
+    background: #2785F7;
+    z-index: 5;
+    position: absolute; 
+}
+.otstup{
+    text: bold;
+    margin:auto;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 
-.icon_title{
+
+
+
+
+/* .icon_title{
     color: #FEFEFE;
-    display: flex;
-    align-items: center;
+    display: flex;  
     position: absolute;
-    text-align: right;
-}
+    margin:auto;
+
+} */
 
 /*SIDEBAR*/
-.sidebar .button {
+.sidebar.button {
     Width: 105px;
     Height: 420px;
     position: absolute;

@@ -246,4 +246,35 @@ tbody tr:hover {
     width: 40px;
     height: 40px;
 }
+/* ,\ */
+.image__folder1 {
+    color: #FEFEFE;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 35px;
+    transition: 0.5s;
+    margin: 42px 34px 339px 36px ;
+    position: absolute;
+    text-align: center;
+    
+}
+.otstup{
+    
+    margin:auto;
+    margin-bottom: 10px;
+    text-decoration: none;
 
+}
+
+
+
+
+
+.zamok{
+    height: 34px;
+    width: 35px;
+    position: absolute;
+}
